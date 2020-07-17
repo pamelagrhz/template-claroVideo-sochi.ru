@@ -1,5 +1,5 @@
 //fecha limite 
-var countDownDate = new Date("Jul 17, 2020 17:57:00").getTime();
+var countDownDate = new Date("Jul 24, 2020 00:00:00").getTime();
 
 //funcion para aumentar cada 1 segundo 
 var x = setInterval(function() {
