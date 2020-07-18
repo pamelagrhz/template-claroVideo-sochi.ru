@@ -50,6 +50,7 @@
             </div>
             <!-- Video-->
             <div class="reproducing">
+                <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/EfK-WX2pa8c?rel=0&loop=1&playlist=EfK-WX2pa8c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -61,11 +62,11 @@
             <div class="circle-videos">
                 <div class="video">
                     <div class="container">
-                        <img class="image" id="1" src="./assets/team-latam.png" alt="">
+                        <img class="image" src="./assets/team-latam.png" alt="">
                         <!--hover-->
-                        <button (click)="clickMe('uno')" class="overlay" type="button" id="button1">
-                        <div class="text ">Duis tincidunt pellentesque condimentum. Aliquam erat volutpat.</div>
-                    </button>
+                        <button onclick="clickMe('uno')" class="overlay" type="button">
+                            <div class="text ">Duis tincidunt pellentesque condimentum. Aliquam erat volutpat.</div>
+                        </button>
 
                     </div>
 
@@ -74,9 +75,9 @@
                 <div class="video ">
                     <div class="container ">
                         <img class="image " src="./assets/travel-meets-fashion.png " alt=" ">
-                        <button class="overlay " id=1 (click)="clickMe ('dos')">
-                        <div class="text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                    </button>
+                        <button class="overlay " onclick="clickMe ('dos')">
+                            <div class="text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        </button>
 
                     </div>
 
@@ -85,9 +86,9 @@
                 <div class="video ">
                     <div class="container ">
                         <img class="image " src="./assets/velocidad-riesgo.png " alt=" ">
-                        <button (click)="clickMe ('tres')" class="overlay ">
-                        <div class="text "> Suspendisse eu consequat urna. Integer ac auctor lorem. </div>
-                    </button>
+                        <button onclick="clickMe ('tres')" class="overlay ">
+                            <div class="text "> Suspendisse eu consequat urna. Integer ac auctor lorem. </div>
+                        </button>
                     </div>
 
                     <div class='video-txt'>VELOCIDAD Y RIESGO</div>
@@ -95,9 +96,9 @@
                 <div class="video ">
                     <div class="container ">
                         <img class="image " src="./assets/experiencia.png " alt=" ">
-                        <button (click)="clickMe ('cuatro')" class="overlay ">
-                        <div class="text ">Sed ligula erat, sagittis sit amet ultricies eu, eu nisl.</div>
-                    </button>
+                        <button onclick="clickMe ('cuatro')" class="overlay ">
+                            <div class="text ">Sed ligula erat, sagittis sit amet ultricies eu, eu nisl.</div>
+                        </button>
 
                     </div>
 

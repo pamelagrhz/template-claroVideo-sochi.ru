@@ -30,3 +30,26 @@ var x = setInterval(function() {
         document.getElementById("contador").innerHTML = "";
     }
 }, 1000);
+
+var src;
+
+function clickMe(name) {
+    switch (name) {
+        case "uno":
+            document.getElementById("video").src = "https://www.youtube-nocookie.com/embed/EfK-WX2pa8c";
+            break;
+        case "dos":
+            document.getElementById("video").src = "https://www.youtube-nocookie.com/embed/bJ9r8LMU9bQ";
+            break;
+        case "tres":
+            document.getElementById("video").src = "https://www.youtube-nocookie.com/embed/AL8chWFuM-s";
+            break;
+        case "cuatro":
+            document.getElementById("video").src = "https://www.youtube-nocookie.com/embed/ttJBdr6eBuo";
+            break;
+        default:
+
+    }
+
+
+}
